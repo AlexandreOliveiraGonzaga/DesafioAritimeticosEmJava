@@ -1,0 +1,23 @@
+
+public class DesafioAritimeticos {
+    public static void main(String[] args) {
+        
+        //EQUAÇÃO LADO 1
+        int chaveA = 6*(3+2) ;
+        int chaveA2 = 3*2;
+        int resultA = (int) Math.pow(chaveA, 2) / chaveA2;
+      
+        //EQUAÇÃO LADO 2
+         int x = (1-5);
+         int y = (2-7);
+         int soma =  x * y / 2;
+         int resul = (int) Math.pow(soma,2);
+         int resultados = resultA - resul;
+        
+         int fim = (int) Math.pow(resultados,3);
+         int finalResultado = (int) Math.pow(10,3);
+         int resolvido = fim / finalResultado;
+
+        System.out.println(resolvido);
+    }
+}
